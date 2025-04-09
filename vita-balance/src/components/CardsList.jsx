@@ -8,7 +8,7 @@ function CardsList(){
             id: 1,
             title: 'Consistency is Key',
             content: "Sticking to a routine is the key to long-term fitness success. Whether it's strength training, yoga, or cardio, small daily efforts lead to big results over time. The best workout is the one you can do consistently!",
-            image: 'consistensy_is_key.jpg',
+            image: 'consistensy.jpg',
             imageTitle: "Close-up of a woman's waist being measured with a tape. Fitness and health concept. Stock Photo",
             layout: 'text-first',
         },

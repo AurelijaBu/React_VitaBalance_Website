@@ -11,7 +11,7 @@ class Exercise(models.Model):
     title = models.CharField(max_length=200)
     description = models.TextField()
     steps = models.TextField()
-    video_url = models.URLField(blank=True, null=True)  # Leidžiame, kad video_url būtų neprivalomas
+    video_url = models.URLField(blank=True, null=True)
     muscle_group = models.ForeignKey(MuscleGroup, related_name='exercises', on_delete=models.CASCADE)
 
     def __str__(self):
