@@ -1,0 +1,73 @@
+.loginSection{margin-top: 3rem;}
+
+.loginBox{ 
+    text-align: center; 
+    padding: 2rem 3rem; 
+    background-color: rgb(250, 250, 250);
+    font-size: large;
+}
+
+input{
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    border-radius: 40px;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.loginBox > h1{font-size: 40px;}
+
+.signUpLink{
+    text-decoration: none;
+    color: rgb(255, 208, 0);
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    margin-left: 0.5rem;
+}
+
+.loginBox > p, 
+.signUpLink{
+    display: inline-block;
+}
+
+.loginButton{
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 40px;
+    background-color: rgb(255, 217, 0);
+    transition: all 0.2s;
+    font-weight: 600;
+    font-size: large;
+    cursor: pointer;
+    width: 100%;
+}
+
+.loginButton:hover{background-color: rgba(255, 217, 0, 0.6);}
+form{margin-top: 1rem;}
+
+@media screen and (min-width: 475px){
+    .loginSection{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 6rem;
+    }
+
+    .loginBox{ 
+        background-color: white;
+        max-width: 400px;
+        width: 100%;
+        border: 1px solid rgb(207, 207, 207);
+        border-radius: 20px;
+        margin: 1rem;
+    }
+
+    .loginBox > h1{margin: 0.5rem;}
+}
+
+@media screen and (min-width: 768px){
+    .loginSection{margin-top: 8rem;}
+}
+
+@media screen and (min-width: 992px){
+    .loginSection{margin-top: 9rem;}
+}

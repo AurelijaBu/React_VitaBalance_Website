@@ -1,0 +1,33 @@
+.cardImg, 
+.cardText{
+    width: 300px;
+    margin: 0;
+}
+
+.cardImg *, 
+.cardText *{
+    margin-bottom: 2rem;
+}
+
+.cardImg{
+    border-start-start-radius: 50%;
+    border-end-end-radius: 50%;
+}
+
+@media (min-width: 768px){
+    .cardText, 
+    .cardImage{
+        flex: 1;
+        min-width: 300px;
+    }
+
+    .cardImg{width: 350px;}
+}
+
+@media (min-width: 1000px){
+    .cardImg{width: 450px;}
+}
+
+@media (min-width: 1200px){
+    .cardImg{ width: 550px;}
+}

@@ -1,0 +1,30 @@
+.footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    position: relative;
+}
+
+.footerContent{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.socialIcons{margin-top: 1rem;}
+
+.socialIcons a{
+    color: yellow;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.socialIcons a:hover{text-decoration: underline;}
+
+.copyright{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: gray;
+}

@@ -1,0 +1,45 @@
+.aboutSection{
+    text-align: center;
+    background-color: #4f738e;
+    color: rgb(236, 245, 253);
+}
+
+.aboutSectionCards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.aboutCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+}
+
+.aboutCard > p{
+    margin-bottom: 3rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.aboutButton{
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.2s;
+    width: 180px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.aboutButton:hover{
+    background-color: rgb(255, 225, 0);
+    box-shadow: 0 0 10px rgba(95, 95, 95, 0.478);
+    color: black;
+}

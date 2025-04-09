@@ -1,0 +1,163 @@
+.challengeSection{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.challengeHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(challenge_background.png);
+    background-size: cover;
+    background-position: top center;
+    color: white;
+    height: 100vh;
+    box-shadow: -2px 5px 10px rgb(0, 29, 73);
+    margin-top: 3rem;
+}
+
+.challengeHeader > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.challengeHeader > div > h1{
+    margin: 0;
+    font-size: 35px;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    letter-spacing: 1px;
+}
+
+.challengeHeader > div > p{
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    animation-delay: 0.5s;
+}
+
+.challengeHeader > div > a{
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    color: white;
+    letter-spacing: 1px;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    animation-delay: 1s;
+    text-decoration: none;
+}
+
+.challengeHeader > div > a:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.exerciseExampleSection, 
+.challengeDaySection{
+    text-align: center;
+}
+
+.exerciseExampleSection > h1, 
+.challengeDaySection h1:nth-child(1){
+    font-size: 35px;
+}
+
+.exerciseExamples{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.exerciseCard, .dayCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.exerciseCard{
+    width: 150px;
+    font-size: large;
+    box-shadow: 2px 2px 10px rgba(0, 0, 62, 0.1);
+}
+
+.exerciseCard img{
+    margin: 0;
+    max-width: 100px;
+}
+
+.detailsButton{
+    border: none;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-radius: 40px;
+    background-color: white;
+    transition: all 0.2s;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.detailsButton:hover{background-color: rgb(240, 240, 240);}
+
+.challengeCardsBlock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.dayCard{
+    padding: 1.5rem;
+    flex: 1 1 calc(20% - 5rem);
+    max-width: calc(20% - 5rem);
+    min-width: 120px;
+}
+
+.dayCard > ul{
+    padding: 0;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.dayCard > h2{
+    margin: 0;
+    border-bottom: 2px solid black;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Pradinis poslinkis nuo apačios */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Pabaigoje tekstas bus vietoje */
+    }
+}
+
+@media screen and (min-width: 768px){
+    .challengeHeader > div > h1{font-size: 50px;}
+    .challengeHeader > div > p{font-size: 20px;}
+    .challengeHeader > div > a{font-size: 15px;}
+    .challengeHeader{margin-top: 5rem;}
+}
+
+@media screen and (min-width: 992px){
+    .challengeHeader{padding: 5rem;}
+}
+
+@media screen and (min-width: 992px){
+    .challengeHeader{height: 80vh;}
+}
