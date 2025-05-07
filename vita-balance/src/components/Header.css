@@ -15,7 +15,7 @@ img{
     top: 0;
     left: 0;
     width: 100%; /* Užima visą plotį */
-    background-image: url(nav_background.png);
+    background-image: url(/images/nav_background.png);
     background-size: cover;
     z-index: 1000; /* Užtikrina, kad bus virš kitų elementų */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Parodys švelnią šešėlį po headeriu */
@@ -117,7 +117,7 @@ img{
         left: 0;
         width: 100%;
         /* background-color: rgb(13, 73, 102); */
-        background-image: url(nav_background.png);
+        background-image: url(/images/nav_background.png);
         background-size: cover;
         z-index: 1000;
         transition: top 0.3s; /* Lėtas perėjimas */

@@ -41,7 +41,7 @@ function Header(){
         <header className='header'>
             <div className='mobileHeader'>
                 <Link className='logo' to='/'>
-                    <img src='logo.PNG' alt='logo' />
+                    <img src='/images/logo.PNG' alt='logo' />
                 </Link>
                 <div className='burgerMenu'>
                     <input 
@@ -71,7 +71,7 @@ function Header(){
                     </ul>
                     <div className='logo'>
                         <Link className='logo' to='/'>
-                            <img src='logo.PNG' alt='logo' />
+                            <img src='/images/logo.PNG' alt='logo' />
                         </Link>
                     </div>
                     <ul>
