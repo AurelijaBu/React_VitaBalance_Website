@@ -4,6 +4,15 @@
 
 ---
 
+## A few visual snippets from the website
+
+![Homepage snippet](page_visual/Homepage_snip.png)
+![Exercise snippet](page_visual/Exercise_snip.png)
+![SignUp snippet](page_visual/SignUp_snip.png)
+![SneakPeak snippet](page_visual/SneakPeak_snip.png)
+
+---
+
 ## Tech Stack
 
 - **Frontend**: React, HTML, CSS, JavaScript
