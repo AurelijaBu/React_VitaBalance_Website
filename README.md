@@ -6,10 +6,18 @@
 
 ## A few visual snippets from the website
 
-![Homepage snippet](page_visual/Homepage_snip.png)
-![Exercise snippet](page_visual/Exercise_snip.png)
-![SignUp snippet](page_visual/SignUp_snip.png)
-![SneakPeak snippet](page_visual/SneakPeak_snip.png)
+## Homepage:
+  
+![Homepage snippet](page_visual/Homepage_snip.PNG)
+
+## 30 Day challange:
+![Exercise snippet](page_visual/Exercise_snip.PNG)
+
+## SignUp:
+![SignUp snippet](page_visual/SignUp_snip.PNG)
+
+## Sneak Peak to exercise plan:
+![SneakPeak snippet](page_visual/SneakPeak_snip.PNG)
 
 ---
 
