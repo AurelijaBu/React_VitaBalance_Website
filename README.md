@@ -7,10 +7,9 @@
 ## A few visual snippets from the website
 
 ## Homepage:
-  
 ![Homepage snippet](page_visual/Homepage_snip.PNG)
 
-## 30 Day challange:
+## 30 Day Challenge:
 ![Exercise snippet](page_visual/Exercise_snip.PNG)
 
 ## SignUp:
