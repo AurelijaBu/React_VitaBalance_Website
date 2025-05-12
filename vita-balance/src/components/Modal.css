@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999; /* Užtikriname, kad modalas bus virš visko */
+    z-index: 9999;
   }
 
 .modal{

@@ -11,14 +11,14 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed; /* Fiksuotas viršuje */
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%; /* Užima visą plotį */
+    width: 100%;
     background-image: url(/images/nav_background.png);
     background-size: cover;
-    z-index: 1000; /* Užtikrina, kad bus virš kitų elementų */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Parodys švelnią šešėlį po headeriu */
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .burgerMenu{position: relative;}
@@ -116,11 +116,10 @@ img{
         top: 0;
         left: 0;
         width: 100%;
-        /* background-color: rgb(13, 73, 102); */
         background-image: url(/images/nav_background.png);
         background-size: cover;
         z-index: 1000;
-        transition: top 0.3s; /* Lėtas perėjimas */
+        transition: top 0.3s;
     }
 
     .nav{
